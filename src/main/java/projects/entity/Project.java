@@ -4,6 +4,7 @@
 package projects.entity;
 
 import java.math.BigDecimal;
+import java.sql.ResultSet;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -114,4 +115,9 @@ public class Project {
     
     return result;
   }
+
+public void extract(ResultSet rs, Class<Project> class1) {
+	// TODO Auto-generated method stub
+	
+}
 }
